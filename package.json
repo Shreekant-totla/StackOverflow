@@ -2,11 +2,15 @@
   "name": "stackoverflow",
   "version": "1.0.0",
   "description": "mock-4",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Shreekant",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
 }
